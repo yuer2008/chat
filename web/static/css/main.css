@@ -1,0 +1,46 @@
+.clear{clear: both;}
+#nav{
+	height: 30px;
+}
+.hand{
+	cursor: pointer;
+}
+.blue{
+	color: blue;
+}
+#nav ul li{
+	list-style: none;
+	float: left;
+}
+#logout_btn{
+	display: none;
+}
+#login_form{
+	width: 500px;
+}
+#login_form input{
+	display: block;
+	width: 100px;
+	margin: 0 auto;
+	height: 30px;
+	line-height: 30px;
+}
+#content_list{
+	border: 1px solid #949494;
+	width: 500px;
+	height: 500px;
+	overflow-y:scroll; 
+	overflow-x:scroll;
+	padding: 10px;
+}
+#content_list .content_item {
+	height: 40px;
+	line-height: 40px;
+}
+#input_wrap{
+	margin-top: 20px;
+}
+#content{
+	width: 500px;
+	height: 50px;
+}

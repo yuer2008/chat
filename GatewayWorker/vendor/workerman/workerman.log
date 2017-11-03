@@ -1,0 +1,128 @@
+2017-11-02 14:46:53 pid:12050 Workerman[start.php] start in DEBUG mode
+2017-11-02 15:07:14 pid:12050 Workerman[start.php] Stopping ...
+2017-11-02 15:07:14 pid:12050 Workerman[start.php] has been stopped
+2017-11-02 15:07:23 pid:12319 Workerman[start.php] start in DEBUG mode
+2017-11-02 15:07:33 pid:12319 Workerman[start.php] Stopping ...
+2017-11-02 15:07:33 pid:12319 Workerman[start.php] has been stopped
+2017-11-02 15:08:08 pid:12345 Workerman[start.php] start in DEBUG mode
+2017-11-02 15:09:07 pid:12345 Workerman[start.php] Stopping ...
+2017-11-02 15:09:07 pid:12345 Workerman[start.php] has been stopped
+2017-11-02 15:09:08 pid:12367 Workerman[start.php] start in DEBUG mode
+2017-11-02 15:09:21 pid:12367 Workerman[start.php] Stopping ...
+2017-11-02 15:09:21 pid:12367 Workerman[start.php] has been stopped
+2017-11-02 15:11:03 pid:12469 Workerman[start.php] start in DEBUG mode
+2017-11-02 15:38:16 pid:12471 Worker[12471] process terminated with ERROR: E_ERROR "Class 'Workerman\Mysql\Connection' not found in /usr/local/nginx/html/chat/GatewayWorker/Applications/chat/start_login.php on line 25"
+2017-11-02 15:38:16 pid:12469 worker[none:12471] exit with status 65280
+2017-11-02 16:41:51 pid:12469 Workerman[start.php] Stopping ...
+2017-11-02 16:41:51 pid:12469 Workerman[start.php] has been stopped
+2017-11-02 16:41:55 pid:13480 Workerman[start.php] start in DEBUG mode
+2017-11-02 16:43:09 pid:13480 Workerman[start.php] Stopping ...
+2017-11-02 16:43:09 pid:13480 Workerman[start.php] has been stopped
+2017-11-02 16:43:10 pid:13508 Workerman[start.php] start in DEBUG mode
+2017-11-02 16:43:17 pid:13510 exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'chat_demo'' in /usr/local/nginx/html/chat/GatewayWorker/vendor/workerman/workerman/Mysql/Connection.php:1709
+Stack trace:
+#0 /usr/local/nginx/html/chat/GatewayWorker/vendor/workerman/workerman/Mysql/Connection.php(1709): PDO->__construct('mysql:dbname=ch...', 'root', '123456', Array)
+#1 /usr/local/nginx/html/chat/GatewayWorker/vendor/workerman/workerman/Mysql/Connection.php(1695): Workerman\MySQL\Connection->connect()
+#2 /usr/local/nginx/html/chat/GatewayWorker/Applications/chat/start_login.php(25): Workerman\MySQL\Connection->__construct('localhost', '3306', 'root', '123456', 'chat_demo')
+#3 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"type":100,"da...')
+#4 /usr/local/nginx/html/chat/GatewayWorker/vendor/workerman/workerman/Connection/TcpConnection.php(629): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"type":100,"da...')
+#5 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#6 /usr/local/nginx/html/chat/GatewayWorker/vendor/workerman/workerman/Events/Select.php(286): call_user_func_array(Array, Array)
+#7 /usr/local/nginx/html/chat/GatewayWorker/vendor/workerman/workerman/Worker.php(1723): Workerman\Events\Select->loop()
+#8 /usr/local/nginx/html/chat/GatewayWorker/vendor/workerman/workerman/Worker.php(1025): Workerman\Worker->run()
+#9 /usr/local/nginx/html/chat/GatewayWorker/vendor/workerman/workerman/Worker.php(988): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#10 /usr/local/nginx/html/chat/GatewayWorker/vendor/workerman/workerman/Worker.php(431): Workerman\Worker::forkWorkers()
+#11 /usr/local/nginx/html/chat/GatewayWorker/Applications/chat/start_login.php(64): Workerman\Worker::runAll()
+#12 /usr/local/nginx/html/chat/GatewayWorker/start.php(34): require_once('/usr/local/ngin...')
+#13 {main}
+2017-11-02 16:43:17 pid:13510 Worker[13510] process terminated
+2017-11-02 16:43:17 pid:13508 worker[none:13510] exit with status 64000
+2017-11-02 17:05:10 pid:13508 Workerman[start.php] Stopping ...
+2017-11-02 17:05:10 pid:13508 Workerman[start.php] has been stopped
+2017-11-02 17:05:12 pid:13706 Workerman[start.php] start in DEBUG mode
+2017-11-02 17:05:41 pid:13706 Workerman[start.php] Stopping ...
+2017-11-02 17:05:41 pid:13706 Workerman[start.php] has been stopped
+2017-11-02 17:05:47 pid:13736 Workerman[start.php] start in DEBUG mode
+2017-11-02 17:06:41 pid:13738 exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'chat_room'' in /usr/local/nginx/html/chat/GatewayWorker/vendor/workerman/workerman/Mysql/Connection.php:1709
+Stack trace:
+#0 /usr/local/nginx/html/chat/GatewayWorker/vendor/workerman/workerman/Mysql/Connection.php(1709): PDO->__construct('mysql:dbname=ch...', 'root', '123456', Array)
+#1 /usr/local/nginx/html/chat/GatewayWorker/vendor/workerman/workerman/Mysql/Connection.php(1695): Workerman\MySQL\Connection->connect()
+#2 /usr/local/nginx/html/chat/GatewayWorker/Applications/chat/start_login.php(25): Workerman\MySQL\Connection->__construct('localhost', '3306', 'root', '123456', 'chat_room')
+#3 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"type":100,"da...')
+#4 /usr/local/nginx/html/chat/GatewayWorker/vendor/workerman/workerman/Connection/TcpConnection.php(629): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"type":100,"da...')
+#5 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#6 /usr/local/nginx/html/chat/GatewayWorker/vendor/workerman/workerman/Events/Select.php(286): call_user_func_array(Array, Array)
+#7 /usr/local/nginx/html/chat/GatewayWorker/vendor/workerman/workerman/Worker.php(1723): Workerman\Events\Select->loop()
+#8 /usr/local/nginx/html/chat/GatewayWorker/vendor/workerman/workerman/Worker.php(1025): Workerman\Worker->run()
+#9 /usr/local/nginx/html/chat/GatewayWorker/vendor/workerman/workerman/Worker.php(988): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#10 /usr/local/nginx/html/chat/GatewayWorker/vendor/workerman/workerman/Worker.php(431): Workerman\Worker::forkWorkers()
+#11 /usr/local/nginx/html/chat/GatewayWorker/Applications/chat/start_login.php(64): Workerman\Worker::runAll()
+#12 /usr/local/nginx/html/chat/GatewayWorker/start.php(34): require_once('/usr/local/ngin...')
+#13 {main}
+2017-11-02 17:06:41 pid:13738 Worker[13738] process terminated
+2017-11-02 17:06:41 pid:13736 worker[none:13738] exit with status 64000
+2017-11-02 17:07:27 pid:13736 Workerman[start.php] Stopping ...
+2017-11-02 17:07:27 pid:13736 Workerman[start.php] has been stopped
+2017-11-02 17:07:29 pid:13786 Workerman[start.php] start in DEBUG mode
+2017-11-02 17:07:41 pid:13788 exception 'PDOException' with message 'SQL:SELECT user_name,id FROM `users` WHERE user_name="yangfutao" SQLSTATE[42S02]: Base table or view not found: 1146 Table 'chatroom.users' doesn't exist' in /usr/local/nginx/html/chat/GatewayWorker/vendor/workerman/workerman/Mysql/Connection.php:1766
+Stack trace:
+#0 /usr/local/nginx/html/chat/GatewayWorker/vendor/workerman/workerman/Mysql/Connection.php(1894): Workerman\MySQL\Connection->execute('SELECT user_nam...', Array)
+#1 /usr/local/nginx/html/chat/GatewayWorker/Applications/chat/start_login.php(26): Workerman\MySQL\Connection->row()
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"type":100,"da...')
+#3 /usr/local/nginx/html/chat/GatewayWorker/vendor/workerman/workerman/Connection/TcpConnection.php(629): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"type":100,"da...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#5 /usr/local/nginx/html/chat/GatewayWorker/vendor/workerman/workerman/Events/Select.php(286): call_user_func_array(Array, Array)
+#6 /usr/local/nginx/html/chat/GatewayWorker/vendor/workerman/workerman/Worker.php(1723): Workerman\Events\Select->loop()
+#7 /usr/local/nginx/html/chat/GatewayWorker/vendor/workerman/workerman/Worker.php(1025): Workerman\Worker->run()
+#8 /usr/local/nginx/html/chat/GatewayWorker/vendor/workerman/workerman/Worker.php(988): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#9 /usr/local/nginx/html/chat/GatewayWorker/vendor/workerman/workerman/Worker.php(431): Workerman\Worker::forkWorkers()
+#10 /usr/local/nginx/html/chat/GatewayWorker/Applications/chat/start_login.php(64): Workerman\Worker::runAll()
+#11 /usr/local/nginx/html/chat/GatewayWorker/start.php(34): require_once('/usr/local/ngin...')
+#12 {main}
+2017-11-02 17:07:41 pid:13788 Worker[13788] process terminated
+2017-11-02 17:07:41 pid:13786 worker[none:13788] exit with status 64000
+2017-11-02 17:17:01 pid:13786 Workerman[start.php] Stopping ...
+2017-11-02 17:17:01 pid:13786 Workerman[start.php] has been stopped
+2017-11-02 17:17:05 pid:13888 Workerman[start.php] start in DEBUG mode
+2017-11-02 17:17:12 pid:13890 exception 'PDOException' with message 'SQL:SELECT user_name,id FROM `users` WHERE user_name="yangfutao" SQLSTATE[42S02]: Base table or view not found: 1146 Table 'chatroom.users' doesn't exist' in /usr/local/nginx/html/chat/GatewayWorker/vendor/workerman/workerman/Mysql/Connection.php:1766
+Stack trace:
+#0 /usr/local/nginx/html/chat/GatewayWorker/vendor/workerman/workerman/Mysql/Connection.php(1894): Workerman\MySQL\Connection->execute('SELECT user_nam...', Array)
+#1 /usr/local/nginx/html/chat/GatewayWorker/Applications/chat/start_login.php(26): Workerman\MySQL\Connection->row()
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"type":100,"da...')
+#3 /usr/local/nginx/html/chat/GatewayWorker/vendor/workerman/workerman/Connection/TcpConnection.php(629): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"type":100,"da...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#5 /usr/local/nginx/html/chat/GatewayWorker/vendor/workerman/workerman/Events/Select.php(286): call_user_func_array(Array, Array)
+#6 /usr/local/nginx/html/chat/GatewayWorker/vendor/workerman/workerman/Worker.php(1723): Workerman\Events\Select->loop()
+#7 /usr/local/nginx/html/chat/GatewayWorker/vendor/workerman/workerman/Worker.php(1025): Workerman\Worker->run()
+#8 /usr/local/nginx/html/chat/GatewayWorker/vendor/workerman/workerman/Worker.php(988): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#9 /usr/local/nginx/html/chat/GatewayWorker/vendor/workerman/workerman/Worker.php(431): Workerman\Worker::forkWorkers()
+#10 /usr/local/nginx/html/chat/GatewayWorker/Applications/chat/start_login.php(64): Workerman\Worker::runAll()
+#11 /usr/local/nginx/html/chat/GatewayWorker/start.php(34): require_once('/usr/local/ngin...')
+#12 {main}
+2017-11-02 17:17:12 pid:13890 Worker[13890] process terminated
+2017-11-02 17:17:12 pid:13888 worker[none:13890] exit with status 64000
+2017-11-02 17:19:32 pid:13888 Workerman[start.php] Stopping ...
+2017-11-02 17:19:32 pid:13888 Workerman[start.php] has been stopped
+2017-11-02 17:19:33 pid:13933 Workerman[start.php] start in DEBUG mode
+2017-11-02 17:19:42 pid:13935 exception 'PDOException' with message 'SQL:SELECT user_name,id FROM `chat_users` WHERE user_name="yangfutao" SQLSTATE[42S02]: Base table or view not found: 1146 Table 'chatroom.chat_users' doesn't exist' in /usr/local/nginx/html/chat/GatewayWorker/vendor/workerman/workerman/Mysql/Connection.php:1766
+Stack trace:
+#0 /usr/local/nginx/html/chat/GatewayWorker/vendor/workerman/workerman/Mysql/Connection.php(1894): Workerman\MySQL\Connection->execute('SELECT user_nam...', Array)
+#1 /usr/local/nginx/html/chat/GatewayWorker/Applications/chat/start_login.php(26): Workerman\MySQL\Connection->row()
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"type":100,"da...')
+#3 /usr/local/nginx/html/chat/GatewayWorker/vendor/workerman/workerman/Connection/TcpConnection.php(629): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"type":100,"da...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#5 /usr/local/nginx/html/chat/GatewayWorker/vendor/workerman/workerman/Events/Select.php(286): call_user_func_array(Array, Array)
+#6 /usr/local/nginx/html/chat/GatewayWorker/vendor/workerman/workerman/Worker.php(1723): Workerman\Events\Select->loop()
+#7 /usr/local/nginx/html/chat/GatewayWorker/vendor/workerman/workerman/Worker.php(1025): Workerman\Worker->run()
+#8 /usr/local/nginx/html/chat/GatewayWorker/vendor/workerman/workerman/Worker.php(988): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#9 /usr/local/nginx/html/chat/GatewayWorker/vendor/workerman/workerman/Worker.php(431): Workerman\Worker::forkWorkers()
+#10 /usr/local/nginx/html/chat/GatewayWorker/Applications/chat/start_login.php(64): Workerman\Worker::runAll()
+#11 /usr/local/nginx/html/chat/GatewayWorker/start.php(34): require_once('/usr/local/ngin...')
+#12 {main}
+2017-11-02 17:19:42 pid:13935 Worker[13935] process terminated
+2017-11-02 17:19:42 pid:13933 worker[none:13935] exit with status 64000
+2017-11-02 17:22:24 pid:13933 Workerman[start.php] Stopping ...
+2017-11-02 17:22:24 pid:13933 Workerman[start.php] has been stopped
+2017-11-02 17:22:26 pid:13978 Workerman[start.php] start in DEBUG mode
+2017-11-02 17:57:09 pid:13978 Workerman[start.php] Stopping ...
+2017-11-02 17:57:09 pid:13978 Workerman[start.php] has been stopped
