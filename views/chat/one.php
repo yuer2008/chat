@@ -29,6 +29,13 @@
 		<div id="content_list">
 			
 		</div>
+		<div id="online_list">
+			<p>当前用户:</p>
+			<ul>
+				<li>11</li>
+				<li>33</li>
+			</ul>
+		</div>
 		<div id="input_wrap">
 			<div><textarea id="content"></textarea></div>
 			<input type="button" class="enter_event" id="send" value="send">
@@ -55,15 +62,25 @@
 	ws.onmessage = function(msg){
 		//receive msg from server
 		var data = msg.data;
+
 		if(data == '')return;
 		try{
 			data = JSON.parse(data);	
 		}catch(e){
 			//alert(e.message);
 		}
+		// console.dir(data)
 		if(data['type'] == 201){// room user count
 			if(data['code'] == 1){
 				$('#user_count').html(data['data']['count']);
+				//online user list
+				if(data['data']['online_user_list'].length > 0){
+					var str = '';
+					for(i in data['data']['online_user_list']){
+						str += '<li>' +data['data']['online_user_list'][i]+ '</li>';
+					}
+					$('#online_list ul').html(str);
+				}
 			}
 			
 		}else if(data['type'] == 100){// login
@@ -84,7 +101,7 @@
 		
 		
 	}
-	//send
+	//send message
 	$('#send').on('click', function(){
 		var content =$('#content').val();
 		var uid = $('#uid').val();
