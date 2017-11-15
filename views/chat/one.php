@@ -31,10 +31,7 @@
 		</div>
 		<div id="online_list">
 			<p>当前用户:</p>
-			<ul>
-				<li>11</li>
-				<li>33</li>
-			</ul>
+			<ul></ul>
 		</div>
 		<div id="input_wrap">
 			<div><textarea id="content"></textarea></div>
@@ -48,7 +45,7 @@
 	$('#content').focus();
 	//open socket
 	try{
-		var ws = new WebSocket('ws://localhost:9110');	
+		var ws = new WebSocket('ws://192.168.2.52:9110');	
 	}catch(e){
 		alert(e.message)
 	}
@@ -70,14 +67,15 @@
 			//alert(e.message);
 		}
 		// console.dir(data)
-		if(data['type'] == 201){// room user count
+		if(data['type'] == 201){// room user count and username list
 			if(data['code'] == 1){
 				$('#user_count').html(data['data']['count']);
 				//online user list
 				if(data['data']['online_user_list'].length > 0){
+					
 					var str = '';
 					for(i in data['data']['online_user_list']){
-						str += '<li>' +data['data']['online_user_list'][i]+ '</li>';
+						str += '<li data-id="'+ data['data']['online_user_list'][i]['id'] +'">' +data['data']['online_user_list'][i]['name']+ '</li>';
 					}
 					$('#online_list ul').html(str);
 				}
@@ -90,6 +88,14 @@
 				$('#login_btn').parent('li').hide();
 				$('#logout_btn').show();
 			}
+		}else if(data['type'] == 101){// logout
+			if(data['code'] == 1){
+				$('#user_name').html('');
+				$('#uid').val('');
+				$('#login_btn').parent('li').show();
+				$('#logout_btn').hide();
+			}
+			
 		}else if(data['type'] == 301){ //receive chat message
 			if(data['code'] == 1){
 				$('#content_list').append('<div class="content_item">'+data['data']['msg'] + '</div>');
@@ -97,9 +103,6 @@
 				$('#content_list').get(0).scrollTop = 99999;
 			}
 		}
-
-		
-		
 	}
 	//send message
 	$('#send').on('click', function(){
@@ -134,7 +137,12 @@
 			layer.close(lay1);
 		});
 	});
-	
+	//logout 
+	$('#logout').on('click', function(){
+		var uid = $('#uid').val();
+		var data = JSON.stringify({type:101,data:{uid:uid}});
+		ws.send(data,function(data){alert(data)});
+	});
 	</script>
 </body>
 </html>    

@@ -1,11 +1,13 @@
 <?php
 use Workerman\Worker;
 use Workerman\Lib\Timer;
-use Workerman\Mysql\Connection;
-include __DIR__."/Autoloader.php";
-$worker = new Worker("websocket://0.0.0.0:9110");
-$redis = new Redis();
-$redis->connect("localhost", "6379");
+
+
+$worker = new Worker("websocket://192.168.2.52:9110");
+
+// $user = new User();
+// echo $user->getName(2);
+$redis = Chat::get('redis');
 // the user count
 $connection_count = 0;
 $worker->onConnect = function($connection){
@@ -25,16 +27,22 @@ $worker->onMessage = function($conn, $data){
 		case 100:	//login
 			$name =  $d['name'];
 			$pwd = $d['pwd'];
-			$db = new Connection('localhost', '3306', 'root', '123456', 'chatroom');
+			$db = Chat::get('db');
 			$user = $db->from('chat_users')->select(['user_name','id'])->where('user_name="'.$name.'"')->row();
 			if($user){
 				$conn->send(json_encode(['type'=>100,"code"=>1,'data'=>['uid'=>$user['id'],'user_name'=>$name], "msg"=>"login success"]));
-				$redis->sadd('chat_online_user', $user['id'].':'.$name);
+				$redis->sadd('chat_online_user', $user['id']);
 			}else{
 				$conn->send(json_encode(['type'=>100,"code"=>0, "msg"=>"login fail"]));
 			}
 			break;
-		case 301:
+		case 101: //logout
+			$uid = $d['uid'];
+			$n = $redis->srem('chat_online_user', $uid);
+			if($n > 0)
+			$conn->send(json_encode(['type'=>101,"code"=>1, "msg"=>"loginout success"]));
+			break;
+		case 301: // send message
 			$msg = $d['message'];
 			$conn->send(json_encode(["type"=>301,"code"=>1, "data"=>["msg"=>$msg]]));
 			foreach($conn->worker->connections as $c){
@@ -55,18 +63,17 @@ $worker->onClose = function($connection){
 };
 $worker->count=1;
 $worker->onWorkerStart = function($worker){
-	//global $connection_count;
-	//global $redis;
 	//定时 每10s一次,online user count
 	Timer::add(10, function()use($worker){
 		global $connection_count;
-		global $redis;
+		global $redis;	
 		$ol = $redis->smembers('chat_online_user');
+		$userInfo = User::batchName($ol);
 		foreach($worker->connections as $c){
-			$c->send(json_encode(["type"=>201,"code"=>1, "data"=>["count"=>$redis->scard('chat_online_user'),'online_user_list'=>$ol]]));
+			$c->send(json_encode(["type"=>201,"code"=>1, "data"=>["count"=>$redis->scard('chat_online_user'),'online_user_list' => $userInfo]]));
 		}
 	});
 //	$conn->send("id:" . $worker::id);
 };
-Worker::runAll();
+// Worker::runAll();
 ?>

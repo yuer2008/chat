@@ -7,6 +7,7 @@
 ini_set('display_errors', 'on');
 use Workerman\Worker;
 
+
 if(strpos(strtolower(PHP_OS), 'win') === 0)
 {
     exit("start.php not support windows, please use start_for_win.bat\n");
@@ -27,7 +28,11 @@ if(!extension_loaded('posix'))
 define('GLOBAL_START', 1);
 
 require_once __DIR__ . '/vendor/autoload.php';
+//////////////
+include_once  './models/User.php';
+include_once  './libs/Chat.php';
 
+///////////////
 // 加载所有Applications/*/start.php，以便启动所有服务
 foreach(glob(__DIR__.'/Applications/chat/start*.php') as $start_file)
 {
