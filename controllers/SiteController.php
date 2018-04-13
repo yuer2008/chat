@@ -7,7 +7,7 @@ use yii\filters\AccessControl;
 use yii\web\Controller;
 use yii\filters\VerbFilter;
 use app\models\MberLoginForm;
-
+use app\models\User;
 class SiteController extends Controller
 {
     public   $layout  = "main";
@@ -75,8 +75,9 @@ class SiteController extends Controller
     }
     public function actionReg()
     {
-        $this->layout = 'login';
-        return $this->render('login');
+	$this->layout = 'login';
+	$model = new User();
+        return $this->render('reg', ['model'=> $model]);
     }
     public function actionLogout()
     {

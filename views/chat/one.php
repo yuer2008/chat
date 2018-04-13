@@ -34,6 +34,11 @@
 			<ul></ul>
 		</div>
 		<div id="input_wrap">
+			<div>send to 
+				<select id="send_to_uid">
+					<option value="0">all</option>
+				</select>
+			</div>
 			<div><textarea id="content"></textarea></div>
 			<input type="button" class="enter_event" id="send" value="send">
 		</div>
@@ -45,7 +50,7 @@
 	$('#content').focus();
 	//open socket
 	try{
-		var ws = new WebSocket('ws://192.168.2.52:9110');	
+		var ws = new WebSocket('<?php echo Yii::$app->params["server_url"]?>');	
 	}catch(e){
 		alert(e.message)
 	}
@@ -73,11 +78,13 @@
 				//online user list
 				if(data['data']['online_user_list'].length > 0){
 					
-					var str = '';
+					var str = '',str_sel = '<option value="0">all</option>';
 					for(i in data['data']['online_user_list']){
 						str += '<li data-id="'+ data['data']['online_user_list'][i]['id'] +'">' +data['data']['online_user_list'][i]['name']+ '</li>';
+						str_sel+= '<option value="'+ data['data']['online_user_list'][i]['id'] +'">' +data['data']['online_user_list'][i]['name']+ '</option>';
 					}
 					$('#online_list ul').html(str);
+					$('#send_to_uid').html(str_sel);
 				}
 			}
 			

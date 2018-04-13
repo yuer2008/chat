@@ -31,10 +31,10 @@ require_once __DIR__ . '/vendor/autoload.php';
 //////////////
 include_once  './models/User.php';
 include_once  './libs/Chat.php';
-
+$config =  require_once('./config/config.php');
 ///////////////
 // 加载所有Applications/*/start.php，以便启动所有服务
-foreach(glob(__DIR__.'/Applications/chat/start*.php') as $start_file)
+foreach(glob(__DIR__.'/Applications/*/start*.php') as $start_file)
 {
     require_once $start_file;
 }
