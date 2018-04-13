@@ -3,7 +3,7 @@ use Workerman\Worker;
 use Workerman\Lib\Timer;
 
 
-$worker = new Worker("websocket://192.168.2.52:9110");
+$worker = new Worker("websocket://".$config['ip'].':'.$config['port']);
 
 // $user = new User();
 // echo $user->getName(2);
