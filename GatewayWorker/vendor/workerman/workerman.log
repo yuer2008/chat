@@ -126,3 +126,857 @@ Stack trace:
 2017-11-02 17:22:26 pid:13978 Workerman[start.php] start in DEBUG mode
 2017-11-02 17:57:09 pid:13978 Workerman[start.php] Stopping ...
 2017-11-02 17:57:09 pid:13978 Workerman[start.php] has been stopped
+2017-11-03 17:42:25 pid:6415 Workerman[start.php] start in DEBUG mode
+2017-11-10 13:38:19 pid:5033 Workerman[start.php] start in DEBUG mode
+2017-11-10 14:18:10 pid:5033 Workerman[start.php] Stopping ...
+2017-11-10 14:18:10 pid:5033 Workerman[start.php] has been stopped
+2017-11-10 14:18:13 pid:5551 Workerman[start.php] start in DEBUG mode
+2017-11-10 16:36:49 pid:5551 Workerman[start.php] Stopping ...
+2017-11-10 16:36:49 pid:5551 Workerman[start.php] has been stopped
+2017-11-10 16:36:51 pid:7623 Workerman[start.php] start in DEBUG mode
+2017-11-10 16:37:01 pid:7625 Worker[7625] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 60"
+2017-11-10 16:37:01 pid:7623 worker[none:7625] exit with status 65280
+2017-11-10 16:37:11 pid:7637 Worker[7637] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 60"
+2017-11-10 16:37:11 pid:7623 worker[none:7637] exit with status 65280
+2017-11-10 16:37:21 pid:7641 Worker[7641] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 60"
+2017-11-10 16:37:21 pid:7623 worker[none:7641] exit with status 65280
+2017-11-10 16:37:31 pid:7644 Worker[7644] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 60"
+2017-11-10 16:37:31 pid:7623 worker[none:7644] exit with status 65280
+2017-11-10 16:37:41 pid:7649 Worker[7649] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 60"
+2017-11-10 16:37:41 pid:7623 worker[none:7649] exit with status 65280
+2017-11-10 16:37:51 pid:7652 Worker[7652] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 60"
+2017-11-10 16:37:51 pid:7623 worker[none:7652] exit with status 65280
+2017-11-10 16:38:01 pid:7657 Worker[7657] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 60"
+2017-11-10 16:38:01 pid:7623 worker[none:7657] exit with status 65280
+2017-11-10 16:38:09 pid:7623 Workerman[start.php] Stopping ...
+2017-11-10 16:38:09 pid:7623 Workerman[start.php] has been stopped
+2017-11-10 16:38:11 pid:7687 Workerman[start.php] start in DEBUG mode
+2017-11-10 16:38:21 pid:7689 Worker[7689] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 61"
+2017-11-10 16:38:21 pid:7687 worker[none:7689] exit with status 65280
+2017-11-10 16:38:31 pid:7702 Worker[7702] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 61"
+2017-11-10 16:38:31 pid:7687 worker[none:7702] exit with status 65280
+2017-11-10 16:38:33 pid:7687 Workerman[start.php] Stopping ...
+2017-11-10 16:38:33 pid:7687 Workerman[start.php] has been stopped
+2017-11-10 16:39:06 pid:7731 Workerman[start.php] start in DEBUG mode
+2017-11-10 16:39:16 pid:7733 Worker[7733] process terminated with ERROR: E_ERROR "Call to a member function scard() on array in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 64"
+2017-11-10 16:39:16 pid:7731 worker[none:7733] exit with status 65280
+2017-11-10 16:40:29 pid:7731 Workerman[start.php] Stopping ...
+2017-11-10 16:40:29 pid:7731 Workerman[start.php] has been stopped
+2017-11-10 16:40:31 pid:7777 Workerman[start.php] start in DEBUG mode
+2017-11-10 16:41:35 pid:7777 Workerman[start.php] Stopping ...
+2017-11-10 16:41:35 pid:7777 Workerman[start.php] has been stopped
+2017-11-10 16:41:36 pid:7818 Workerman[start.php] start in DEBUG mode
+2017-11-10 16:44:38 pid:7818 Workerman[start.php] Stopping ...
+2017-11-10 16:44:38 pid:7818 Workerman[start.php] has been stopped
+2017-11-10 16:44:40 pid:7877 Workerman[start.php] start in DEBUG mode
+2017-11-10 16:44:46 pid:7879 Worker[7879] process terminated with ERROR: E_ERROR "Call to a member function sadd() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 31"
+2017-11-10 16:44:46 pid:7877 worker[none:7879] exit with status 65280
+2017-11-10 16:45:11 pid:7877 Workerman[start.php] Stopping ...
+2017-11-10 16:45:11 pid:7877 Workerman[start.php] has been stopped
+2017-11-10 16:45:12 pid:7919 Workerman[start.php] start in DEBUG mode
+2017-11-10 17:57:43 pid:7919 Workerman[start.php] Stopping ...
+2017-11-10 17:57:44 pid:7919 Workerman[start.php] has been stopped
+2017-11-13 11:34:05 pid:10591 Workerman[start.php] start in DEBUG mode
+2017-11-13 11:36:21 pid:10591 Workerman[start.php] Stopping ...
+2017-11-13 11:36:21 pid:10591 Workerman[start.php] has been stopped
+2017-11-13 11:36:23 pid:10650 Workerman[start.php] start in DEBUG mode
+2017-11-13 11:47:05 pid:10650 Workerman[start.php] Stopping ...
+2017-11-13 11:47:05 pid:10650 Workerman[start.php] has been stopped
+2017-11-13 11:47:07 pid:10751 Workerman[start.php] start in DEBUG mode
+2017-11-13 16:15:59 pid:10751 Workerman[start.php] Stopping ...
+2017-11-13 16:16:00 pid:10751 Workerman[start.php] has been stopped
+2017-11-13 16:25:22 pid:13001 Workerman[start.php] start in DEBUG mode
+2017-11-13 17:31:18 pid:13001 Workerman[start.php] Stopping ...
+2017-11-13 17:31:18 pid:13001 Workerman[start.php] has been stopped
+2017-11-13 17:31:20 pid:13490 Workerman[start.php] start in DEBUG mode
+2017-11-13 17:31:26 pid:13490 Workerman[start.php] Stopping ...
+2017-11-13 17:31:26 pid:13490 Workerman[start.php] has been stopped
+2017-11-13 18:00:21 pid:14032 Workerman[start.php] start in DEBUG mode
+2017-11-13 18:00:50 pid:14032 Workerman[start.php] Stopping ...
+2017-11-13 18:00:50 pid:14032 Workerman[start.php] has been stopped
+2017-11-13 18:00:51 pid:14062 Workerman[start.php] start in DEBUG mode
+2017-11-13 18:01:02 pid:14062 Workerman[start.php] Stopping ...
+2017-11-13 18:01:02 pid:14062 Workerman[start.php] has been stopped
+2017-11-13 18:01:04 pid:14110 Workerman[start.php] start in DEBUG mode
+2017-11-13 18:02:34 pid:14110 Workerman[start.php] Stopping ...
+2017-11-13 18:02:34 pid:14110 Workerman[start.php] has been stopped
+2017-11-14 17:49:13 pid:13000 Workerman[start.php] start in DEBUG mode
+2017-11-14 17:49:34 pid:13000 Workerman[start.php] Stopping ...
+2017-11-14 17:49:34 pid:13000 Workerman[start.php] has been stopped
+2017-11-14 17:49:57 pid:13040 Workerman[start.php] start in DEBUG mode
+2017-11-15 09:13:25 pid:13040 Workerman[start.php] Stopping ...
+2017-11-15 09:13:25 pid:13040 Workerman[start.php] has been stopped
+2017-11-15 09:13:34 pid:13158 Workerman[start.php] start in DEBUG mode
+2017-11-15 09:21:08 pid:13158 Workerman[start.php] Stopping ...
+2017-11-15 09:21:08 pid:13158 Workerman[start.php] has been stopped
+2017-11-15 14:35:33 pid:19641 Workerman[start.php] start in DEBUG mode
+2017-11-15 14:35:37 pid:19641 Workerman[start.php] Stopping ...
+2017-11-15 14:35:37 pid:19641 Workerman[start.php] has been stopped
+2017-11-15 14:35:56 pid:19667 Workerman[start.php] start in DEBUG mode
+2017-11-15 14:36:23 pid:19667 Workerman[start.php] Stopping ...
+2017-11-15 14:36:23 pid:19667 Workerman[start.php] has been stopped
+2017-11-15 14:36:24 pid:19692 Workerman[start.php] start in DEBUG mode
+2017-11-15 14:36:56 pid:19692 Workerman[start.php] Stopping ...
+2017-11-15 14:36:56 pid:19692 Workerman[start.php] has been stopped
+2017-11-15 14:36:57 pid:19718 Workerman[start.php] start in DEBUG mode
+2017-11-15 14:48:41 pid:19718 Workerman[start.php] Stopping ...
+2017-11-15 14:48:41 pid:19718 Workerman[start.php] has been stopped
+2017-11-15 14:48:46 pid:19886 Workerman[start.php] start in DEBUG mode
+2017-11-15 14:48:56 pid:19888 Worker[19888] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 14:48:56 pid:19886 worker[none:19888] exit with status 65280
+2017-11-15 14:49:06 pid:19896 Worker[19896] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 14:49:06 pid:19886 worker[none:19896] exit with status 65280
+2017-11-15 14:49:16 pid:19900 Worker[19900] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 14:49:16 pid:19886 worker[none:19900] exit with status 65280
+2017-11-15 14:49:26 pid:19903 Worker[19903] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 14:49:26 pid:19886 worker[none:19903] exit with status 65280
+2017-11-15 14:49:36 pid:19909 Worker[19909] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 14:49:36 pid:19886 worker[none:19909] exit with status 65280
+2017-11-15 14:49:46 pid:19913 Worker[19913] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 14:49:46 pid:19886 worker[none:19913] exit with status 65280
+2017-11-15 14:49:56 pid:19916 Worker[19916] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 14:49:56 pid:19886 worker[none:19916] exit with status 65280
+2017-11-15 14:50:06 pid:19920 Worker[19920] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 14:50:06 pid:19886 worker[none:19920] exit with status 65280
+2017-11-15 14:50:16 pid:19929 Worker[19929] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 14:50:16 pid:19886 worker[none:19929] exit with status 65280
+2017-11-15 14:50:26 pid:19932 Worker[19932] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 14:50:26 pid:19886 worker[none:19932] exit with status 65280
+2017-11-15 14:50:36 pid:19936 Worker[19936] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 14:50:36 pid:19886 worker[none:19936] exit with status 65280
+2017-11-15 14:50:46 pid:19942 Worker[19942] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 14:50:46 pid:19886 worker[none:19942] exit with status 65280
+2017-11-15 14:50:56 pid:19945 Worker[19945] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 14:50:56 pid:19886 worker[none:19945] exit with status 65280
+2017-11-15 14:51:06 pid:19949 Worker[19949] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 14:51:06 pid:19886 worker[none:19949] exit with status 65280
+2017-11-15 14:51:16 pid:19953 Worker[19953] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 14:51:16 pid:19886 worker[none:19953] exit with status 65280
+2017-11-15 14:51:26 pid:19956 Worker[19956] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 14:51:26 pid:19886 worker[none:19956] exit with status 65280
+2017-11-15 14:51:36 pid:19960 Worker[19960] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 14:51:36 pid:19886 worker[none:19960] exit with status 65280
+2017-11-15 14:51:46 pid:19964 Worker[19964] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 14:51:46 pid:19886 worker[none:19964] exit with status 65280
+2017-11-15 14:51:56 pid:19967 Worker[19967] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 14:51:56 pid:19886 worker[none:19967] exit with status 65280
+2017-11-15 14:52:06 pid:19973 Worker[19973] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 14:52:06 pid:19886 worker[none:19973] exit with status 65280
+2017-11-15 14:52:16 pid:19977 Worker[19977] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 14:52:16 pid:19886 worker[none:19977] exit with status 65280
+2017-11-15 14:52:26 pid:19980 Worker[19980] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 14:52:26 pid:19886 worker[none:19980] exit with status 65280
+2017-11-15 14:52:36 pid:19984 Worker[19984] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 14:52:36 pid:19886 worker[none:19984] exit with status 65280
+2017-11-15 14:52:46 pid:19988 Worker[19988] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 14:52:46 pid:19886 worker[none:19988] exit with status 65280
+2017-11-15 14:52:56 pid:19991 Worker[19991] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 14:52:56 pid:19886 worker[none:19991] exit with status 65280
+2017-11-15 14:53:06 pid:19995 Worker[19995] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 14:53:06 pid:19886 worker[none:19995] exit with status 65280
+2017-11-15 14:53:16 pid:20001 Worker[20001] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 14:53:16 pid:19886 worker[none:20001] exit with status 65280
+2017-11-15 14:53:26 pid:20004 Worker[20004] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 14:53:26 pid:19886 worker[none:20004] exit with status 65280
+2017-11-15 14:53:36 pid:20008 Worker[20008] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 14:53:36 pid:19886 worker[none:20008] exit with status 65280
+2017-11-15 14:53:47 pid:20011 Worker[20011] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 14:53:47 pid:19886 worker[none:20011] exit with status 65280
+2017-11-15 14:53:57 pid:20015 Worker[20015] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 14:53:57 pid:19886 worker[none:20015] exit with status 65280
+2017-11-15 14:54:07 pid:20019 Worker[20019] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 14:54:07 pid:19886 worker[none:20019] exit with status 65280
+2017-11-15 14:54:17 pid:20022 Worker[20022] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 14:54:17 pid:19886 worker[none:20022] exit with status 65280
+2017-11-15 14:54:27 pid:20026 Worker[20026] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 14:54:27 pid:19886 worker[none:20026] exit with status 65280
+2017-11-15 14:54:37 pid:20032 Worker[20032] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 14:54:37 pid:19886 worker[none:20032] exit with status 65280
+2017-11-15 14:54:47 pid:20035 Worker[20035] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 14:54:47 pid:19886 worker[none:20035] exit with status 65280
+2017-11-15 14:54:57 pid:20039 Worker[20039] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 14:54:57 pid:19886 worker[none:20039] exit with status 65280
+2017-11-15 14:55:07 pid:20043 Worker[20043] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 14:55:07 pid:19886 worker[none:20043] exit with status 65280
+2017-11-15 14:55:17 pid:20046 Worker[20046] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 14:55:17 pid:19886 worker[none:20046] exit with status 65280
+2017-11-15 14:55:27 pid:20050 Worker[20050] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 14:55:27 pid:19886 worker[none:20050] exit with status 65280
+2017-11-15 14:55:37 pid:20054 Worker[20054] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 14:55:37 pid:19886 worker[none:20054] exit with status 65280
+2017-11-15 14:55:47 pid:20059 Worker[20059] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 14:55:47 pid:19886 worker[none:20059] exit with status 65280
+2017-11-15 14:55:57 pid:20063 Worker[20063] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 14:55:57 pid:19886 worker[none:20063] exit with status 65280
+2017-11-15 14:56:07 pid:20067 Worker[20067] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 14:56:07 pid:19886 worker[none:20067] exit with status 65280
+2017-11-15 14:56:17 pid:20070 Worker[20070] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 14:56:17 pid:19886 worker[none:20070] exit with status 65280
+2017-11-15 14:56:27 pid:20074 Worker[20074] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 14:56:27 pid:19886 worker[none:20074] exit with status 65280
+2017-11-15 14:56:37 pid:20078 Worker[20078] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 14:56:37 pid:19886 worker[none:20078] exit with status 65280
+2017-11-15 14:56:47 pid:20081 Worker[20081] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 14:56:47 pid:19886 worker[none:20081] exit with status 65280
+2017-11-15 14:56:57 pid:20085 Worker[20085] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 14:56:57 pid:19886 worker[none:20085] exit with status 65280
+2017-11-15 14:57:07 pid:20091 Worker[20091] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 14:57:07 pid:19886 worker[none:20091] exit with status 65280
+2017-11-15 14:57:17 pid:20094 Worker[20094] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 14:57:17 pid:19886 worker[none:20094] exit with status 65280
+2017-11-15 14:57:27 pid:20098 Worker[20098] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 14:57:27 pid:19886 worker[none:20098] exit with status 65280
+2017-11-15 14:57:37 pid:20102 Worker[20102] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 14:57:37 pid:19886 worker[none:20102] exit with status 65280
+2017-11-15 14:57:47 pid:20105 Worker[20105] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 14:57:47 pid:19886 worker[none:20105] exit with status 65280
+2017-11-15 14:57:57 pid:20109 Worker[20109] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 14:57:57 pid:19886 worker[none:20109] exit with status 65280
+2017-11-15 14:58:07 pid:20113 Worker[20113] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 14:58:07 pid:19886 worker[none:20113] exit with status 65280
+2017-11-15 14:58:17 pid:20118 Worker[20118] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 14:58:17 pid:19886 worker[none:20118] exit with status 65280
+2017-11-15 14:58:27 pid:20122 Worker[20122] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 14:58:27 pid:19886 worker[none:20122] exit with status 65280
+2017-11-15 14:58:37 pid:20126 Worker[20126] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 14:58:37 pid:19886 worker[none:20126] exit with status 65280
+2017-11-15 14:58:47 pid:20129 Worker[20129] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 14:58:47 pid:19886 worker[none:20129] exit with status 65280
+2017-11-15 14:58:57 pid:20133 Worker[20133] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 14:58:57 pid:19886 worker[none:20133] exit with status 65280
+2017-11-15 14:59:07 pid:20137 Worker[20137] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 14:59:07 pid:19886 worker[none:20137] exit with status 65280
+2017-11-15 14:59:17 pid:20140 Worker[20140] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 14:59:17 pid:19886 worker[none:20140] exit with status 65280
+2017-11-15 14:59:27 pid:20144 Worker[20144] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 14:59:27 pid:19886 worker[none:20144] exit with status 65280
+2017-11-15 14:59:37 pid:20150 Worker[20150] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 14:59:37 pid:19886 worker[none:20150] exit with status 65280
+2017-11-15 14:59:47 pid:20153 Worker[20153] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 14:59:47 pid:19886 worker[none:20153] exit with status 65280
+2017-11-15 14:59:57 pid:20157 Worker[20157] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 14:59:57 pid:19886 worker[none:20157] exit with status 65280
+2017-11-15 15:00:07 pid:20161 Worker[20161] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:00:07 pid:19886 worker[none:20161] exit with status 65280
+2017-11-15 15:00:17 pid:20169 Worker[20169] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:00:17 pid:19886 worker[none:20169] exit with status 65280
+2017-11-15 15:00:27 pid:20173 Worker[20173] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:00:27 pid:19886 worker[none:20173] exit with status 65280
+2017-11-15 15:00:37 pid:20177 Worker[20177] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:00:37 pid:19886 worker[none:20177] exit with status 65280
+2017-11-15 15:00:47 pid:20182 Worker[20182] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:00:47 pid:19886 worker[none:20182] exit with status 65280
+2017-11-15 15:00:57 pid:20186 Worker[20186] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:00:57 pid:19886 worker[none:20186] exit with status 65280
+2017-11-15 15:01:07 pid:20189 Worker[20189] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:01:07 pid:19886 worker[none:20189] exit with status 65280
+2017-11-15 15:01:18 pid:20205 Worker[20205] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:01:18 pid:19886 worker[none:20205] exit with status 65280
+2017-11-15 15:01:28 pid:20209 Worker[20209] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:01:28 pid:19886 worker[none:20209] exit with status 65280
+2017-11-15 15:01:38 pid:20212 Worker[20212] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:01:38 pid:19886 worker[none:20212] exit with status 65280
+2017-11-15 15:01:48 pid:20216 Worker[20216] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:01:48 pid:19886 worker[none:20216] exit with status 65280
+2017-11-15 15:01:58 pid:20220 Worker[20220] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:01:58 pid:19886 worker[none:20220] exit with status 65280
+2017-11-15 15:02:08 pid:20225 Worker[20225] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:02:08 pid:19886 worker[none:20225] exit with status 65280
+2017-11-15 15:02:18 pid:20229 Worker[20229] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:02:18 pid:19886 worker[none:20229] exit with status 65280
+2017-11-15 15:02:28 pid:20233 Worker[20233] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:02:28 pid:19886 worker[none:20233] exit with status 65280
+2017-11-15 15:02:38 pid:20236 Worker[20236] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:02:38 pid:19886 worker[none:20236] exit with status 65280
+2017-11-15 15:02:48 pid:20240 Worker[20240] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:02:48 pid:19886 worker[none:20240] exit with status 65280
+2017-11-15 15:02:58 pid:20244 Worker[20244] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:02:58 pid:19886 worker[none:20244] exit with status 65280
+2017-11-15 15:03:08 pid:20247 Worker[20247] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:03:08 pid:19886 worker[none:20247] exit with status 65280
+2017-11-15 15:03:18 pid:20253 Worker[20253] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:03:18 pid:19886 worker[none:20253] exit with status 65280
+2017-11-15 15:03:28 pid:20257 Worker[20257] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:03:28 pid:19886 worker[none:20257] exit with status 65280
+2017-11-15 15:03:38 pid:20260 Worker[20260] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:03:38 pid:19886 worker[none:20260] exit with status 65280
+2017-11-15 15:03:48 pid:20264 Worker[20264] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:03:48 pid:19886 worker[none:20264] exit with status 65280
+2017-11-15 15:03:58 pid:20268 Worker[20268] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:03:58 pid:19886 worker[none:20268] exit with status 65280
+2017-11-15 15:04:08 pid:20271 Worker[20271] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:04:08 pid:19886 worker[none:20271] exit with status 65280
+2017-11-15 15:04:18 pid:20281 Worker[20281] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:04:18 pid:19886 worker[none:20281] exit with status 65280
+2017-11-15 15:04:28 pid:20285 Worker[20285] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:04:28 pid:19886 worker[none:20285] exit with status 65280
+2017-11-15 15:04:38 pid:20302 Worker[20302] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:04:38 pid:19886 worker[none:20302] exit with status 65280
+2017-11-15 15:04:48 pid:20306 Worker[20306] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:04:48 pid:19886 worker[none:20306] exit with status 65280
+2017-11-15 15:04:58 pid:20316 Worker[20316] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:04:58 pid:19886 worker[none:20316] exit with status 65280
+2017-11-15 15:05:08 pid:20319 Worker[20319] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:05:08 pid:19886 worker[none:20319] exit with status 65280
+2017-11-15 15:05:18 pid:20323 Worker[20323] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:05:18 pid:19886 worker[none:20323] exit with status 65280
+2017-11-15 15:05:28 pid:20327 Worker[20327] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:05:28 pid:19886 worker[none:20327] exit with status 65280
+2017-11-15 15:05:38 pid:20330 Worker[20330] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:05:38 pid:19886 worker[none:20330] exit with status 65280
+2017-11-15 15:05:48 pid:20336 Worker[20336] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:05:48 pid:19886 worker[none:20336] exit with status 65280
+2017-11-15 15:05:58 pid:20340 Worker[20340] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:05:58 pid:19886 worker[none:20340] exit with status 65280
+2017-11-15 15:06:08 pid:20343 Worker[20343] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:06:08 pid:19886 worker[none:20343] exit with status 65280
+2017-11-15 15:06:18 pid:20347 Worker[20347] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:06:18 pid:19886 worker[none:20347] exit with status 65280
+2017-11-15 15:06:28 pid:20351 Worker[20351] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:06:28 pid:19886 worker[none:20351] exit with status 65280
+2017-11-15 15:06:38 pid:20354 Worker[20354] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:06:38 pid:19886 worker[none:20354] exit with status 65280
+2017-11-15 15:06:48 pid:20358 Worker[20358] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:06:48 pid:19886 worker[none:20358] exit with status 65280
+2017-11-15 15:06:58 pid:20362 Worker[20362] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:06:58 pid:19886 worker[none:20362] exit with status 65280
+2017-11-15 15:07:08 pid:20367 Worker[20367] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:07:08 pid:19886 worker[none:20367] exit with status 65280
+2017-11-15 15:07:18 pid:20371 Worker[20371] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:07:18 pid:19886 worker[none:20371] exit with status 65280
+2017-11-15 15:07:28 pid:20375 Worker[20375] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:07:28 pid:19886 worker[none:20375] exit with status 65280
+2017-11-15 15:07:38 pid:20378 Worker[20378] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:07:38 pid:19886 worker[none:20378] exit with status 65280
+2017-11-15 15:07:48 pid:20382 Worker[20382] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:07:48 pid:19886 worker[none:20382] exit with status 65280
+2017-11-15 15:07:58 pid:20386 Worker[20386] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:07:58 pid:19886 worker[none:20386] exit with status 65280
+2017-11-15 15:08:08 pid:20389 Worker[20389] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:08:08 pid:19886 worker[none:20389] exit with status 65280
+2017-11-15 15:08:19 pid:20395 Worker[20395] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:08:19 pid:19886 worker[none:20395] exit with status 65280
+2017-11-15 15:08:29 pid:20398 Worker[20398] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:08:29 pid:19886 worker[none:20398] exit with status 65280
+2017-11-15 15:08:39 pid:20402 Worker[20402] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:08:39 pid:19886 worker[none:20402] exit with status 65280
+2017-11-15 15:08:49 pid:20407 Worker[20407] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:08:49 pid:19886 worker[none:20407] exit with status 65280
+2017-11-15 15:08:59 pid:20410 Worker[20410] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:08:59 pid:19886 worker[none:20410] exit with status 65280
+2017-11-15 15:09:09 pid:20414 Worker[20414] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:09:09 pid:19886 worker[none:20414] exit with status 65280
+2017-11-15 15:09:19 pid:20418 Worker[20418] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:09:19 pid:19886 worker[none:20418] exit with status 65280
+2017-11-15 15:09:29 pid:20421 Worker[20421] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:09:29 pid:19886 worker[none:20421] exit with status 65280
+2017-11-15 15:09:39 pid:20427 Worker[20427] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:09:39 pid:19886 worker[none:20427] exit with status 65280
+2017-11-15 15:09:49 pid:20431 Worker[20431] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:09:49 pid:19886 worker[none:20431] exit with status 65280
+2017-11-15 15:09:59 pid:20434 Worker[20434] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:09:59 pid:19886 worker[none:20434] exit with status 65280
+2017-11-15 15:10:09 pid:20438 Worker[20438] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:10:09 pid:19886 worker[none:20438] exit with status 65280
+2017-11-15 15:10:19 pid:20447 Worker[20447] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:10:19 pid:19886 worker[none:20447] exit with status 65280
+2017-11-15 15:10:29 pid:20471 Worker[20471] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:10:29 pid:19886 worker[none:20471] exit with status 65280
+2017-11-15 15:10:39 pid:20489 Worker[20489] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:10:39 pid:19886 worker[none:20489] exit with status 65280
+2017-11-15 15:10:49 pid:20495 Worker[20495] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:10:50 pid:19886 worker[none:20495] exit with status 65280
+2017-11-15 15:11:00 pid:20499 Worker[20499] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:11:00 pid:19886 worker[none:20499] exit with status 65280
+2017-11-15 15:11:10 pid:20514 Worker[20514] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:11:10 pid:19886 worker[none:20514] exit with status 65280
+2017-11-15 15:11:20 pid:20526 Worker[20526] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:11:20 pid:19886 worker[none:20526] exit with status 65280
+2017-11-15 15:11:30 pid:20529 Worker[20529] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:11:30 pid:19886 worker[none:20529] exit with status 65280
+2017-11-15 15:11:40 pid:20533 Worker[20533] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:11:40 pid:19886 worker[none:20533] exit with status 65280
+2017-11-15 15:11:50 pid:20537 Worker[20537] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:11:50 pid:19886 worker[none:20537] exit with status 65280
+2017-11-15 15:12:00 pid:20540 Worker[20540] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:12:00 pid:19886 worker[none:20540] exit with status 65280
+2017-11-15 15:12:10 pid:20546 Worker[20546] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:12:10 pid:19886 worker[none:20546] exit with status 65280
+2017-11-15 15:12:20 pid:20550 Worker[20550] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:12:20 pid:19886 worker[none:20550] exit with status 65280
+2017-11-15 15:12:30 pid:20553 Worker[20553] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:12:30 pid:19886 worker[none:20553] exit with status 65280
+2017-11-15 15:12:40 pid:20557 Worker[20557] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:12:40 pid:19886 worker[none:20557] exit with status 65280
+2017-11-15 15:12:50 pid:20561 Worker[20561] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:12:50 pid:19886 worker[none:20561] exit with status 65280
+2017-11-15 15:13:00 pid:20564 Worker[20564] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:13:00 pid:19886 worker[none:20564] exit with status 65280
+2017-11-15 15:13:10 pid:20570 Worker[20570] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:13:10 pid:19886 worker[none:20570] exit with status 65280
+2017-11-15 15:13:20 pid:20576 Worker[20576] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:13:20 pid:19886 worker[none:20576] exit with status 65280
+2017-11-15 15:13:30 pid:20579 Worker[20579] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:13:30 pid:19886 worker[none:20579] exit with status 65280
+2017-11-15 15:13:40 pid:20583 Worker[20583] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:13:40 pid:19886 worker[none:20583] exit with status 65280
+2017-11-15 15:13:50 pid:20596 Worker[20596] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:13:50 pid:19886 worker[none:20596] exit with status 65280
+2017-11-15 15:14:00 pid:20599 Worker[20599] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:14:00 pid:19886 worker[none:20599] exit with status 65280
+2017-11-15 15:14:10 pid:20603 Worker[20603] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:14:10 pid:19886 worker[none:20603] exit with status 65280
+2017-11-15 15:14:20 pid:20607 Worker[20607] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:14:20 pid:19886 worker[none:20607] exit with status 65280
+2017-11-15 15:14:30 pid:20610 Worker[20610] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:14:30 pid:19886 worker[none:20610] exit with status 65280
+2017-11-15 15:14:40 pid:20617 Worker[20617] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:14:40 pid:19886 worker[none:20617] exit with status 65280
+2017-11-15 15:14:50 pid:20621 Worker[20621] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:14:50 pid:19886 worker[none:20621] exit with status 65280
+2017-11-15 15:15:00 pid:20624 Worker[20624] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:15:00 pid:19886 worker[none:20624] exit with status 65280
+2017-11-15 15:15:10 pid:20628 Worker[20628] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:15:10 pid:19886 worker[none:20628] exit with status 65280
+2017-11-15 15:15:20 pid:20632 Worker[20632] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:15:20 pid:19886 worker[none:20632] exit with status 65280
+2017-11-15 15:15:30 pid:20635 Worker[20635] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:15:30 pid:19886 worker[none:20635] exit with status 65280
+2017-11-15 15:15:40 pid:20639 Worker[20639] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:15:40 pid:19886 worker[none:20639] exit with status 65280
+2017-11-15 15:15:50 pid:20645 Worker[20645] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:15:50 pid:19886 worker[none:20645] exit with status 65280
+2017-11-15 15:16:00 pid:20648 Worker[20648] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:16:00 pid:19886 worker[none:20648] exit with status 65280
+2017-11-15 15:16:10 pid:20652 Worker[20652] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:16:10 pid:19886 worker[none:20652] exit with status 65280
+2017-11-15 15:16:20 pid:20656 Worker[20656] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:16:20 pid:19886 worker[none:20656] exit with status 65280
+2017-11-15 15:16:30 pid:20659 Worker[20659] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:16:30 pid:19886 worker[none:20659] exit with status 65280
+2017-11-15 15:16:40 pid:20665 Worker[20665] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:16:40 pid:19886 worker[none:20665] exit with status 65280
+2017-11-15 15:16:50 pid:20671 Worker[20671] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:16:50 pid:19886 worker[none:20671] exit with status 65280
+2017-11-15 15:17:00 pid:20675 Worker[20675] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:17:00 pid:19886 worker[none:20675] exit with status 65280
+2017-11-15 15:17:10 pid:20681 Worker[20681] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:17:10 pid:19886 worker[none:20681] exit with status 65280
+2017-11-15 15:17:20 pid:20684 Worker[20684] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:17:20 pid:19886 worker[none:20684] exit with status 65280
+2017-11-15 15:17:30 pid:20688 Worker[20688] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:17:30 pid:19886 worker[none:20688] exit with status 65280
+2017-11-15 15:17:41 pid:20692 Worker[20692] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:17:41 pid:19886 worker[none:20692] exit with status 65280
+2017-11-15 15:17:51 pid:20695 Worker[20695] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:17:51 pid:19886 worker[none:20695] exit with status 65280
+2017-11-15 15:18:01 pid:20699 Worker[20699] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:18:01 pid:19886 worker[none:20699] exit with status 65280
+2017-11-15 15:18:11 pid:20703 Worker[20703] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:18:11 pid:19886 worker[none:20703] exit with status 65280
+2017-11-15 15:18:21 pid:20708 Worker[20708] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:18:21 pid:19886 worker[none:20708] exit with status 65280
+2017-11-15 15:18:31 pid:20712 Worker[20712] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:18:31 pid:19886 worker[none:20712] exit with status 65280
+2017-11-15 15:18:41 pid:20716 Worker[20716] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:18:41 pid:19886 worker[none:20716] exit with status 65280
+2017-11-15 15:18:51 pid:20719 Worker[20719] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:18:51 pid:19886 worker[none:20719] exit with status 65280
+2017-11-15 15:19:01 pid:20723 Worker[20723] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:19:01 pid:19886 worker[none:20723] exit with status 65280
+2017-11-15 15:19:11 pid:20727 Worker[20727] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:19:11 pid:19886 worker[none:20727] exit with status 65280
+2017-11-15 15:19:21 pid:20730 Worker[20730] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:19:21 pid:19886 worker[none:20730] exit with status 65280
+2017-11-15 15:19:31 pid:20734 Worker[20734] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:19:31 pid:19886 worker[none:20734] exit with status 65280
+2017-11-15 15:19:41 pid:20740 Worker[20740] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:19:41 pid:19886 worker[none:20740] exit with status 65280
+2017-11-15 15:19:51 pid:20743 Worker[20743] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:19:51 pid:19886 worker[none:20743] exit with status 65280
+2017-11-15 15:20:01 pid:20747 Worker[20747] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:20:01 pid:19886 worker[none:20747] exit with status 65280
+2017-11-15 15:20:11 pid:20751 Worker[20751] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:20:11 pid:19886 worker[none:20751] exit with status 65280
+2017-11-15 15:20:21 pid:20759 Worker[20759] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:20:21 pid:19886 worker[none:20759] exit with status 65280
+2017-11-15 15:20:31 pid:20763 Worker[20763] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:20:31 pid:19886 worker[none:20763] exit with status 65280
+2017-11-15 15:20:41 pid:20767 Worker[20767] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:20:41 pid:19886 worker[none:20767] exit with status 65280
+2017-11-15 15:20:51 pid:20772 Worker[20772] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:20:51 pid:19886 worker[none:20772] exit with status 65280
+2017-11-15 15:21:01 pid:20776 Worker[20776] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:21:01 pid:19886 worker[none:20776] exit with status 65280
+2017-11-15 15:21:11 pid:20780 Worker[20780] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:21:11 pid:19886 worker[none:20780] exit with status 65280
+2017-11-15 15:21:21 pid:20783 Worker[20783] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:21:21 pid:19886 worker[none:20783] exit with status 65280
+2017-11-15 15:21:31 pid:20787 Worker[20787] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:21:31 pid:19886 worker[none:20787] exit with status 65280
+2017-11-15 15:21:41 pid:20791 Worker[20791] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:21:41 pid:19886 worker[none:20791] exit with status 65280
+2017-11-15 15:21:51 pid:20797 Worker[20797] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:21:51 pid:19886 worker[none:20797] exit with status 65280
+2017-11-15 15:22:01 pid:20804 Worker[20804] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:22:01 pid:19886 worker[none:20804] exit with status 65280
+2017-11-15 15:22:11 pid:20808 Worker[20808] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:22:11 pid:19886 worker[none:20808] exit with status 65280
+2017-11-15 15:22:21 pid:20811 Worker[20811] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:22:21 pid:19886 worker[none:20811] exit with status 65280
+2017-11-15 15:22:31 pid:20815 Worker[20815] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:22:31 pid:19886 worker[none:20815] exit with status 65280
+2017-11-15 15:22:41 pid:20819 Worker[20819] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:22:41 pid:19886 worker[none:20819] exit with status 65280
+2017-11-15 15:22:51 pid:20822 Worker[20822] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:22:51 pid:19886 worker[none:20822] exit with status 65280
+2017-11-15 15:23:01 pid:20826 Worker[20826] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:23:01 pid:19886 worker[none:20826] exit with status 65280
+2017-11-15 15:23:11 pid:20830 Worker[20830] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:23:11 pid:19886 worker[none:20830] exit with status 65280
+2017-11-15 15:23:21 pid:20835 Worker[20835] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:23:21 pid:19886 worker[none:20835] exit with status 65280
+2017-11-15 15:23:31 pid:20839 Worker[20839] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:23:31 pid:19886 worker[none:20839] exit with status 65280
+2017-11-15 15:23:41 pid:20843 Worker[20843] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:23:41 pid:19886 worker[none:20843] exit with status 65280
+2017-11-15 15:23:51 pid:20846 Worker[20846] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:23:51 pid:19886 worker[none:20846] exit with status 65280
+2017-11-15 15:24:01 pid:20850 Worker[20850] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:24:01 pid:19886 worker[none:20850] exit with status 65280
+2017-11-15 15:24:11 pid:20853 Worker[20853] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:24:11 pid:19886 worker[none:20853] exit with status 65280
+2017-11-15 15:24:21 pid:20857 Worker[20857] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:24:21 pid:19886 worker[none:20857] exit with status 65280
+2017-11-15 15:24:31 pid:20863 Worker[20863] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:24:31 pid:19886 worker[none:20863] exit with status 65280
+2017-11-15 15:24:41 pid:20866 Worker[20866] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:24:41 pid:19886 worker[none:20866] exit with status 65280
+2017-11-15 15:24:51 pid:20870 Worker[20870] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:24:51 pid:19886 worker[none:20870] exit with status 65280
+2017-11-15 15:25:01 pid:20875 Worker[20875] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:25:01 pid:19886 worker[none:20875] exit with status 65280
+2017-11-15 15:25:11 pid:20878 Worker[20878] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:25:11 pid:19886 worker[none:20878] exit with status 65280
+2017-11-15 15:25:21 pid:20887 Worker[20887] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:25:21 pid:19886 worker[none:20887] exit with status 65280
+2017-11-15 15:25:31 pid:20891 Worker[20891] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:25:32 pid:19886 worker[none:20891] exit with status 65280
+2017-11-15 15:25:42 pid:20894 Worker[20894] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:25:42 pid:19886 worker[none:20894] exit with status 65280
+2017-11-15 15:25:52 pid:20900 Worker[20900] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:25:52 pid:19886 worker[none:20900] exit with status 65280
+2017-11-15 15:26:02 pid:20904 Worker[20904] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:26:02 pid:19886 worker[none:20904] exit with status 65280
+2017-11-15 15:26:12 pid:20907 Worker[20907] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:26:12 pid:19886 worker[none:20907] exit with status 65280
+2017-11-15 15:26:22 pid:20911 Worker[20911] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:26:22 pid:19886 worker[none:20911] exit with status 65280
+2017-11-15 15:26:32 pid:20915 Worker[20915] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:26:32 pid:19886 worker[none:20915] exit with status 65280
+2017-11-15 15:26:42 pid:20918 Worker[20918] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:26:42 pid:19886 worker[none:20918] exit with status 65280
+2017-11-15 15:26:52 pid:20922 Worker[20922] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:26:52 pid:19886 worker[none:20922] exit with status 65280
+2017-11-15 15:27:02 pid:20928 Worker[20928] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:27:02 pid:19886 worker[none:20928] exit with status 65280
+2017-11-15 15:27:12 pid:20931 Worker[20931] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:27:12 pid:19886 worker[none:20931] exit with status 65280
+2017-11-15 15:27:22 pid:20936 Worker[20936] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:27:22 pid:19886 worker[none:20936] exit with status 65280
+2017-11-15 15:27:32 pid:20940 Worker[20940] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:27:32 pid:19886 worker[none:20940] exit with status 65280
+2017-11-15 15:27:42 pid:20943 Worker[20943] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:27:42 pid:19886 worker[none:20943] exit with status 65280
+2017-11-15 15:27:52 pid:20955 Worker[20955] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:27:52 pid:19886 worker[none:20955] exit with status 65280
+2017-11-15 15:28:02 pid:20959 Worker[20959] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:28:02 pid:19886 worker[none:20959] exit with status 65280
+2017-11-15 15:28:12 pid:20971 Worker[20971] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:28:12 pid:19886 worker[none:20971] exit with status 65280
+2017-11-15 15:28:22 pid:20977 Worker[20977] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:28:22 pid:19886 worker[none:20977] exit with status 65280
+2017-11-15 15:28:32 pid:20981 Worker[20981] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:28:32 pid:19886 worker[none:20981] exit with status 65280
+2017-11-15 15:28:42 pid:20984 Worker[20984] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:28:42 pid:19886 worker[none:20984] exit with status 65280
+2017-11-15 15:28:52 pid:20988 Worker[20988] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:28:52 pid:19886 worker[none:20988] exit with status 65280
+2017-11-15 15:29:02 pid:20992 Worker[20992] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:29:02 pid:19886 worker[none:20992] exit with status 65280
+2017-11-15 15:29:12 pid:20995 Worker[20995] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:29:12 pid:19886 worker[none:20995] exit with status 65280
+2017-11-15 15:29:22 pid:20999 Worker[20999] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:29:22 pid:19886 worker[none:20999] exit with status 65280
+2017-11-15 15:29:32 pid:21005 Worker[21005] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:29:32 pid:19886 worker[none:21005] exit with status 65280
+2017-11-15 15:29:42 pid:21008 Worker[21008] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:29:42 pid:19886 worker[none:21008] exit with status 65280
+2017-11-15 15:29:52 pid:21012 Worker[21012] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:29:52 pid:19886 worker[none:21012] exit with status 65280
+2017-11-15 15:30:02 pid:21016 Worker[21016] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:30:02 pid:19886 worker[none:21016] exit with status 65280
+2017-11-15 15:30:12 pid:21024 Worker[21024] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:30:12 pid:19886 worker[none:21024] exit with status 65280
+2017-11-15 15:30:22 pid:21028 Worker[21028] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:30:22 pid:19886 worker[none:21028] exit with status 65280
+2017-11-15 15:30:32 pid:21032 Worker[21032] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:30:32 pid:19886 worker[none:21032] exit with status 65280
+2017-11-15 15:30:42 pid:21035 Worker[21035] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:30:42 pid:19886 worker[none:21035] exit with status 65280
+2017-11-15 15:30:52 pid:21041 Worker[21041] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:30:52 pid:19886 worker[none:21041] exit with status 65280
+2017-11-15 15:31:02 pid:21045 Worker[21045] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:31:02 pid:19886 worker[none:21045] exit with status 65280
+2017-11-15 15:31:12 pid:21048 Worker[21048] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:31:12 pid:19886 worker[none:21048] exit with status 65280
+2017-11-15 15:31:22 pid:21052 Worker[21052] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:31:22 pid:19886 worker[none:21052] exit with status 65280
+2017-11-15 15:31:32 pid:21056 Worker[21056] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:31:32 pid:19886 worker[none:21056] exit with status 65280
+2017-11-15 15:31:42 pid:21059 Worker[21059] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:31:42 pid:19886 worker[none:21059] exit with status 65280
+2017-11-15 15:31:52 pid:21063 Worker[21063] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:31:52 pid:19886 worker[none:21063] exit with status 65280
+2017-11-15 15:32:02 pid:21068 Worker[21068] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:32:02 pid:19886 worker[none:21068] exit with status 65280
+2017-11-15 15:32:12 pid:21072 Worker[21072] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:32:12 pid:19886 worker[none:21072] exit with status 65280
+2017-11-15 15:32:22 pid:21076 Worker[21076] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:32:22 pid:19886 worker[none:21076] exit with status 65280
+2017-11-15 15:32:32 pid:21079 Worker[21079] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:32:32 pid:19886 worker[none:21079] exit with status 65280
+2017-11-15 15:32:42 pid:21083 Worker[21083] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:32:42 pid:19886 worker[none:21083] exit with status 65280
+2017-11-15 15:32:52 pid:21087 Worker[21087] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:32:52 pid:19886 worker[none:21087] exit with status 65280
+2017-11-15 15:33:02 pid:21090 Worker[21090] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:33:02 pid:19886 worker[none:21090] exit with status 65280
+2017-11-15 15:33:12 pid:21094 Worker[21094] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:33:12 pid:19886 worker[none:21094] exit with status 65280
+2017-11-15 15:33:22 pid:21100 Worker[21100] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:33:22 pid:19886 worker[none:21100] exit with status 65280
+2017-11-15 15:33:33 pid:21103 Worker[21103] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:33:33 pid:19886 worker[none:21103] exit with status 65280
+2017-11-15 15:33:43 pid:21107 Worker[21107] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:33:43 pid:19886 worker[none:21107] exit with status 65280
+2017-11-15 15:33:53 pid:21111 Worker[21111] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:33:53 pid:19886 worker[none:21111] exit with status 65280
+2017-11-15 15:34:03 pid:21114 Worker[21114] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:34:03 pid:19886 worker[none:21114] exit with status 65280
+2017-11-15 15:34:13 pid:21118 Worker[21118] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:34:13 pid:19886 worker[none:21118] exit with status 65280
+2017-11-15 15:34:23 pid:21122 Worker[21122] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:34:23 pid:19886 worker[none:21122] exit with status 65280
+2017-11-15 15:34:33 pid:21127 Worker[21127] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:34:33 pid:19886 worker[none:21127] exit with status 65280
+2017-11-15 15:34:43 pid:21131 Worker[21131] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:34:43 pid:19886 worker[none:21131] exit with status 65280
+2017-11-15 15:34:53 pid:21135 Worker[21135] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:34:53 pid:19886 worker[none:21135] exit with status 65280
+2017-11-15 15:35:03 pid:21138 Worker[21138] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:35:03 pid:19886 worker[none:21138] exit with status 65280
+2017-11-15 15:35:13 pid:21142 Worker[21142] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:35:13 pid:19886 worker[none:21142] exit with status 65280
+2017-11-15 15:35:23 pid:21146 Worker[21146] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:35:23 pid:19886 worker[none:21146] exit with status 65280
+2017-11-15 15:35:33 pid:21149 Worker[21149] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:35:33 pid:19886 worker[none:21149] exit with status 65280
+2017-11-15 15:35:43 pid:21153 Worker[21153] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:35:43 pid:19886 worker[none:21153] exit with status 65280
+2017-11-15 15:35:53 pid:21159 Worker[21159] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:35:53 pid:19886 worker[none:21159] exit with status 65280
+2017-11-15 15:36:03 pid:21162 Worker[21162] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:36:03 pid:19886 worker[none:21162] exit with status 65280
+2017-11-15 15:36:13 pid:21166 Worker[21166] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:36:13 pid:19886 worker[none:21166] exit with status 65280
+2017-11-15 15:36:23 pid:21170 Worker[21170] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:36:23 pid:19886 worker[none:21170] exit with status 65280
+2017-11-15 15:36:33 pid:21173 Worker[21173] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:36:33 pid:19886 worker[none:21173] exit with status 65280
+2017-11-15 15:36:43 pid:21177 Worker[21177] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:36:43 pid:19886 worker[none:21177] exit with status 65280
+2017-11-15 15:36:53 pid:21181 Worker[21181] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:36:53 pid:19886 worker[none:21181] exit with status 65280
+2017-11-15 15:37:03 pid:21186 Worker[21186] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:37:03 pid:19886 worker[none:21186] exit with status 65280
+2017-11-15 15:37:13 pid:21193 Worker[21193] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:37:13 pid:19886 worker[none:21193] exit with status 65280
+2017-11-15 15:37:23 pid:21202 Worker[21202] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:37:23 pid:19886 worker[none:21202] exit with status 65280
+2017-11-15 15:37:33 pid:21215 Worker[21215] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:37:33 pid:19886 worker[none:21215] exit with status 65280
+2017-11-15 15:37:43 pid:21219 Worker[21219] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:37:43 pid:19886 worker[none:21219] exit with status 65280
+2017-11-15 15:37:53 pid:21223 Worker[21223] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:37:53 pid:19886 worker[none:21223] exit with status 65280
+2017-11-15 15:38:03 pid:21226 Worker[21226] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:38:03 pid:19886 worker[none:21226] exit with status 65280
+2017-11-15 15:38:13 pid:21230 Worker[21230] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:38:13 pid:19886 worker[none:21230] exit with status 65280
+2017-11-15 15:38:23 pid:21235 Worker[21235] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:38:23 pid:19886 worker[none:21235] exit with status 65280
+2017-11-15 15:38:33 pid:21239 Worker[21239] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:38:33 pid:19886 worker[none:21239] exit with status 65280
+2017-11-15 15:38:43 pid:21243 Worker[21243] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:38:43 pid:19886 worker[none:21243] exit with status 65280
+2017-11-15 15:38:53 pid:21247 Worker[21247] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:38:53 pid:19886 worker[none:21247] exit with status 65280
+2017-11-15 15:39:03 pid:21251 Worker[21251] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:39:03 pid:19886 worker[none:21251] exit with status 65280
+2017-11-15 15:39:13 pid:21255 Worker[21255] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:39:13 pid:19886 worker[none:21255] exit with status 65280
+2017-11-15 15:39:23 pid:21258 Worker[21258] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:39:24 pid:19886 worker[none:21258] exit with status 65280
+2017-11-15 15:39:34 pid:21264 Worker[21264] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:39:34 pid:19886 worker[none:21264] exit with status 65280
+2017-11-15 15:39:44 pid:21268 Worker[21268] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:39:44 pid:19886 worker[none:21268] exit with status 65280
+2017-11-15 15:39:54 pid:21271 Worker[21271] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:39:54 pid:19886 worker[none:21271] exit with status 65280
+2017-11-15 15:40:04 pid:21275 Worker[21275] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:40:04 pid:19886 worker[none:21275] exit with status 65280
+2017-11-15 15:40:11 pid:19886 Workerman[start.php] Stopping ...
+2017-11-15 15:40:11 pid:19886 Workerman[start.php] has been stopped
+2017-11-15 15:40:16 pid:21301 Workerman[start.php] start in DEBUG mode
+2017-11-15 15:40:26 pid:21303 Worker[21303] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 71"
+2017-11-15 15:40:26 pid:21301 worker[none:21303] exit with status 65280
+2017-11-15 15:40:36 pid:21310 Worker[21310] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 71"
+2017-11-15 15:40:36 pid:21301 worker[none:21310] exit with status 65280
+2017-11-15 15:40:46 pid:21316 Worker[21316] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 71"
+2017-11-15 15:40:46 pid:21301 worker[none:21316] exit with status 65280
+2017-11-15 15:40:56 pid:21320 Worker[21320] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 71"
+2017-11-15 15:40:56 pid:21301 worker[none:21320] exit with status 65280
+2017-11-15 15:41:07 pid:21323 Worker[21323] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 71"
+2017-11-15 15:41:07 pid:21301 worker[none:21323] exit with status 65280
+2017-11-15 15:41:17 pid:21331 Worker[21331] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 71"
+2017-11-15 15:41:17 pid:21301 worker[none:21331] exit with status 65280
+2017-11-15 15:41:27 pid:21335 Worker[21335] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 71"
+2017-11-15 15:41:27 pid:21301 worker[none:21335] exit with status 65280
+2017-11-15 15:41:37 pid:21338 Worker[21338] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 71"
+2017-11-15 15:41:37 pid:21301 worker[none:21338] exit with status 65280
+2017-11-15 15:41:47 pid:21342 Worker[21342] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 71"
+2017-11-15 15:41:47 pid:21301 worker[none:21342] exit with status 65280
+2017-11-15 15:41:57 pid:21346 Worker[21346] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 71"
+2017-11-15 15:41:57 pid:21301 worker[none:21346] exit with status 65280
+2017-11-15 15:42:00 pid:21301 Workerman[start.php] Stopping ...
+2017-11-15 15:42:00 pid:21301 Workerman[start.php] has been stopped
+2017-11-15 15:42:05 pid:21387 Workerman[start.php] start in DEBUG mode
+2017-11-15 15:42:15 pid:21389 Worker[21389] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:42:15 pid:21387 worker[none:21389] exit with status 65280
+2017-11-15 15:42:25 pid:21396 Worker[21396] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:42:25 pid:21387 worker[none:21396] exit with status 65280
+2017-11-15 15:42:35 pid:21400 Worker[21400] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:42:35 pid:21387 worker[none:21400] exit with status 65280
+2017-11-15 15:42:45 pid:21404 Worker[21404] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:42:45 pid:21387 worker[none:21404] exit with status 65280
+2017-11-15 15:42:55 pid:21419 Worker[21419] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:42:55 pid:21387 worker[none:21419] exit with status 65280
+2017-11-15 15:43:00 pid:21387 Workerman[start.php] Stopping ...
+2017-11-15 15:43:00 pid:21387 Workerman[start.php] has been stopped
+2017-11-15 15:43:03 pid:21446 Workerman[start.php] start in DEBUG mode
+2017-11-15 15:43:13 pid:21448 Worker[21448] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:43:13 pid:21446 worker[none:21448] exit with status 65280
+2017-11-15 15:43:23 pid:21457 Worker[21457] process terminated with ERROR: E_ERROR "Call to a member function smembers() on null in /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php on line 72"
+2017-11-15 15:43:23 pid:21446 worker[none:21457] exit with status 65280
+2017-11-15 15:43:31 pid:21446 Workerman[start.php] Stopping ...
+2017-11-15 15:43:31 pid:21446 Workerman[start.php] has been stopped
+2017-11-15 15:43:34 pid:21484 Workerman[start.php] start in DEBUG mode
+2017-11-15 15:47:13 pid:21484 Workerman[start.php] Stopping ...
+2017-11-15 15:47:13 pid:21484 Workerman[start.php] has been stopped
+2017-11-15 15:47:16 pid:21536 Workerman[start.php] start in DEBUG mode
+2017-11-15 15:47:37 pid:21538 Worker[21538] process terminated with ERROR: E_ERROR "Class 'Connection' not found in /usr/local/nginx/html_me/chat/GatewayWorker/libs/Chat.php on line 18"
+2017-11-15 15:47:37 pid:21536 worker[none:21538] exit with status 65280
+2017-11-15 15:51:35 pid:21536 Workerman[start.php] Stopping ...
+2017-11-15 15:51:35 pid:21536 Workerman[start.php] has been stopped
+2017-11-15 15:51:39 pid:21609 Workerman[start.php] start in DEBUG mode
+2017-11-15 15:51:56 pid:21611 Worker[21611] process terminated with ERROR: E_ERROR "Class 'Connection' not found in /usr/local/nginx/html_me/chat/GatewayWorker/libs/Chat.php on line 18"
+2017-11-15 15:51:56 pid:21609 worker[none:21611] exit with status 65280
+2017-11-15 15:52:46 pid:21609 Workerman[start.php] Stopping ...
+2017-11-15 15:52:46 pid:21609 Workerman[start.php] has been stopped
+2017-11-15 15:52:47 pid:21650 Workerman[start.php] start in DEBUG mode
+2017-11-15 16:04:21 pid:21650 Workerman[start.php] Stopping ...
+2017-11-15 16:04:21 pid:21650 Workerman[start.php] has been stopped
+2017-11-15 16:04:25 pid:21824 Workerman[start.php] start in DEBUG mode
+2017-11-15 16:18:01 pid:21824 Workerman[start.php] Stopping ...
+2017-11-15 16:18:01 pid:21824 Workerman[start.php] has been stopped
+2017-11-15 16:42:51 pid:22175 Workerman[start.php] start in DEBUG mode
+2017-11-15 16:43:01 pid:22177 Worker[22177] process terminated with ERROR: E_ERROR "Uncaught exception 'PDOException' with message 'SQL:SELECT user_name,id FROM `chat_users` WHERE id= SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /usr/local/nginx/html_me/chat/GatewayWorker/vendor/workerman/workerman/Mysql/Connection.php:1766
+Stack trace:
+#0 /usr/local/nginx/html_me/chat/GatewayWorker/vendor/workerman/workerman/Mysql/Connection.php(1894): Workerman\MySQL\Connection->execute('SELECT user_nam...', Array)
+#1 /usr/local/nginx/html_me/chat/GatewayWorker/models/User.php(13): Workerman\MySQL\Connection->row()
+#2 /usr/local/nginx/html_me/chat/GatewayWorker/models/User.php(23): User::getName('9')
+#3 /usr/local/nginx/html_me/chat/GatewayWorker/Applications/chat/start_login.php(71): User::batchName(Array)
+#4 [internal function]: {closure}()
+#5 /usr/local/nginx/html_me/chat/GatewayWorker/vendor/workerman/workerman/Events/Select.php(233): call_use in /usr/local/nginx/html_me/chat/GatewayWorker/vendor/workerman/workerman/Mysql/Connection.php on line 1766"
+2017-11-15 16:43:01 pid:22175 worker[none:22177] exit with status 65280
+2017-11-15 16:43:03 pid:22175 Workerman[start.php] Stopping ...
+2017-11-15 16:43:03 pid:22175 Workerman[start.php] has been stopped
+2017-11-15 16:45:40 pid:22225 Workerman[start.php] start in DEBUG mode
+2017-11-15 16:51:30 pid:22225 Workerman[start.php] Stopping ...
+2017-11-15 16:51:30 pid:22225 Workerman[start.php] has been stopped
+2017-11-15 16:51:32 pid:22307 Workerman[start.php] start in DEBUG mode
+2017-11-15 16:58:26 pid:22307 Workerman[start.php] Stopping ...
+2017-11-15 16:58:26 pid:22307 Workerman[start.php] has been stopped
+2017-11-15 17:18:37 pid:22650 Workerman[start.php] start in DEBUG mode
+2017-11-15 17:54:58 pid:22650 Workerman[start.php] Stopping ...
+2017-11-15 17:54:58 pid:22650 Workerman[start.php] has been stopped
+2017-11-16 17:02:11 pid:5328 Workerman[start.php] start in DEBUG mode
+2017-11-16 17:07:00 pid:5402 Workerman[start.php] start in DEBUG mode
+2017-11-16 17:08:04 pid:5422 Workerman[start.php] start in DEBUG mode
+2017-11-16 17:09:10 pid:5422 Workerman[start.php] Stopping ...
+2017-11-16 17:09:10 pid:5422 Workerman[start.php] has been stopped
+2017-11-16 17:09:15 pid:5467 Workerman[start.php] start in DEBUG mode
+2017-11-20 09:44:49 pid:4057 Workerman[start.php] start in DEBUG mode
+2017-11-21 17:58:54 pid:4057 Workerman[start.php] Stopping ...
+2017-11-21 17:58:55 pid:4057 Workerman[start.php] has been stopped
+2018-01-04 10:34:47 pid:5152 Workerman[start.php] start in DEBUG mode
+2018-01-04 10:59:41 pid:5152 Workerman[start.php] Stopping ...
+2018-01-04 10:59:41 pid:5152 Workerman[start.php] has been stopped
+2018-01-04 11:00:01 pid:5418 Workerman[start.php] start in DEBUG mode
+2018-01-30 09:30:35 pid:7168 Workerman[start.php] start in DEBUG mode
+2018-01-30 10:29:52 pid:7758 Workerman[ws_test.php] start in DEBUG mode
+2018-01-30 10:31:25 pid:7758 Workerman[ws_test.php] Stopping ...
+2018-01-30 10:31:25 pid:7758 Workerman[ws_test.php] has been stopped
+2018-01-30 10:32:02 pid:7835 Workerman[ws_test.php] start in DEBUG mode
+2018-01-30 10:38:25 pid:7835 Workerman[ws_test.php] Stopping ...
+2018-01-30 10:38:25 pid:7835 Workerman[ws_test.php] has been stopped
+2018-01-30 10:40:07 pid:7903 Workerman[ws_test.php] start in DEBUG mode
+2018-01-30 10:40:21 pid:7903 Workerman[ws_test.php] Stopping ...
+2018-01-30 10:40:21 pid:7903 Workerman[ws_test.php] has been stopped
+2018-01-30 10:40:35 pid:7922 Workerman[ws_test.php] start in DEBUG mode
+2018-01-30 10:45:59 pid:7922 Workerman[ws_test.php] Stopping ...
+2018-01-30 10:45:59 pid:7922 Workerman[ws_test.php] has been stopped
+2018-01-30 10:46:42 pid:8226 Workerman[ws_test.php] start in DEBUG mode
+2018-01-30 17:58:16 pid:8226 Workerman[ws_test.php] Stopping ...
+2018-01-30 17:58:16 pid:8226 Workerman[ws_test.php] has been stopped
+2018-02-25 10:30:29 pid:10588 Workerman[start.php] start in DEBUG mode
+2018-02-25 11:27:41 pid:11874 Workerman[start.php] start in DEBUG mode
+2018-02-25 11:42:25 pid:11874 Workerman[start.php] Stopping ...
+2018-02-25 11:42:25 pid:11874 Workerman[start.php] has been stopped
+2018-02-25 11:42:28 pid:12000 Workerman[start.php] start in DEBUG mode
+2018-02-25 11:45:50 pid:12000 Workerman[start.php] Stopping ...
+2018-02-25 11:45:50 pid:12000 Workerman[start.php] has been stopped
+2018-02-25 11:45:51 pid:12039 Workerman[start.php] start in DEBUG mode
+2018-02-25 11:49:55 pid:12049 Bad request for Register service. Request info(IP:192.168.2.109, Request Buffer:33). See http://wiki.workerman.net/Error4 for detail
+2018-02-25 17:19:42 pid:14236 Workerman[start.php] status 
+2018-02-25 17:37:20 pid:14353 Workerman[start.php] stop 
+2018-02-25 17:37:20 pid:14353 Workerman[start.php] is stoping ...
+2018-02-25 17:37:20 pid:12039 Workerman[start.php] Stopping ...
+2018-02-25 17:37:20 pid:12039 Workerman[start.php] has been stopped
+2018-02-25 17:37:20 pid:14353 Workerman[start.php] stop success
+2018-02-25 17:43:32 pid:14407 Workerman[start.php] start in DEBUG mode
+2018-02-25 17:52:02 pid:14407 Workerman[start.php] Stopping ...
+2018-02-25 17:52:02 pid:14407 Workerman[start.php] has been stopped
+2018-02-25 17:52:04 pid:14514 Workerman[start.php] start in DEBUG mode
+2018-02-25 17:59:24 pid:14514 Workerman[start.php] Stopping ...
+2018-02-25 17:59:24 pid:14514 Workerman[start.php] has been stopped
+2018-02-26 17:25:29 pid:7059 Workerman[start.php] start in DEBUG mode
+2018-02-27 15:03:20 pid:10428 Workerman[start.php] start in DEBUG mode
+2018-02-27 15:03:20 pid:10428 Workerman[start.php] already running
+2018-02-27 15:03:27 pid:10438 Workerman[start.php] stop 
+2018-02-27 15:03:27 pid:10438 Workerman[start.php] is stoping ...
+2018-02-27 15:03:27 pid:7059 Workerman[start.php] Stopping ...
+2018-02-27 15:03:28 pid:7059 Workerman[start.php] has been stopped
+2018-02-27 15:03:28 pid:10438 Workerman[start.php] stop success
+2018-02-27 15:03:59 pid:10456 Workerman[start.php] start in DEBUG mode
